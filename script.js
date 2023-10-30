@@ -94,7 +94,8 @@ function getPasswordOptions() {
   var passwordLength = prompt(
     "How long do you want your password to be? (It must be between 8 and 128 characters)"
   );
-  var length = parseInt(passwordLength);
+
+  var length = +passwordLength;
   // This code is used to ensure that the user's input for the password length, which is collected as a string through the prompt function, is converted into a numeric format so that it checks if the password length is within a specified range (e.g., between 8 and 128 characters).
 
   // this code ensures that the user's input for the password length is a valid number within the specified range and provides feedback to the user if the input is not valid.
