@@ -25,7 +25,7 @@ Once all prompts are answered, the password should be generated and displayed in
 
 ## Installation
 
-The steps required to access is through this link (https://sidiq96.github.io/Console-Finances/), By clicking this link will lead to the website and be able to see it. As you can see in the screenshot below.
+The steps required to access is through this link (https://sidiq96.github.io/Password_Generator/), By clicking this link will lead to the website and be able to see it. As you can see in the screenshot below.
 
 ![screenshot of website](./assets/Images/Password%20Generator%20Screenshot.png)
 
