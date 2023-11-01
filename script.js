@@ -151,7 +151,7 @@ function generatePassword() {
   if (options.includeNumeric) characters = characters.concat(numericCharacters);
   if (options.includeLowercase)
     characters = characters.concat(lowerCasedCharacters);
-  if (options.includeU) characters = characters.concat(upperCasedCharacters);
+  if (options.includeUppercase) characters = characters.concat(upperCasedCharacters);
 
   // this code generates the password by creating a string ('password) and repeatedly appending random characters to it from the character array
   var password = "";
